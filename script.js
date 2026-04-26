@@ -1,1 +1,6 @@
-console.log("Le fichier script.js est bien connecté.");
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('themeToggle');
+  btn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+  });
+});

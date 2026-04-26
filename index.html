@@ -1,15 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon projet</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebook — Robots de chantier extérieurs</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Bienvenue sur mon projet</h1>
-    <p>Ceci est un paragraphe du projet.</p>
-    <script src="script.js"></script>  
+  <header class="site-header">
+    <div class="container">
+      <h1>Ebook — Robots de chantier extérieurs dans le monde</h1>
+      <p class="subtitle">Panorama mondial des robots présents, à venir ou à l’étude sur les chantiers extérieurs, avec une section détaillée sur les robots humanoïdes.</p>
+      <button id="themeToggle" class="theme-toggle" aria-label="Basculer le thème">🌙 / ☀️</button>
+    </div>
+  </header>
+
+  <div class="layout container">
+    <aside class="toc">
+      <h2>Table des matières</h2>
+      <nav>
+        <a href="#page-1">Page 1 — Introduction</a>
+        <a href="#page-2">Page 2 — Panorama mondial</a>
+        <a href="#page-3">Page 3 — Grandes familles</a>
+        <a href="#page-4">Page 4 — Robots de maçonnerie</a>
+        <a href="#page-5">Page 5 — Impression 3D</a>
+        <a href="#page-6">Page 6 — Armatures et béton</a>
+        <a href="#page-7">Page 7 — Inspection et données</a>
+        <a href="#page-8">Page 8 — Façade et hauteur</a>
+        <a href="#page-9">Page 9 — Plateformes polyvalentes</a>
+        <a href="#page-10">Page 10 — Humanoïdes</a>
+        <a href="#page-11">Page 11 — Limites et freins</a>
+        <a href="#page-12">Page 12 — Tendances 2026-2035</a>
+        <a href="#page-13">Page 13 — Images recommandées</a>
+        <a href="#page-14">Page 14 — Prompts sur mesure</a>
+        <a href="#page-15">Page 15 — Bibliographie</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section id="page-1" class="page-card">
+        <div class="page-number">Page 1</div>
+        <h2>Introduction</h2>
+        <p>La robotisation des chantiers extérieurs progresse rapidement à l’échelle mondiale. Elle s’appuie aujourd’hui sur des robots spécialisés, des quadrupèdes de relevé, des plateformes mobiles, des robots de façade, des systèmes de maçonnerie automatisés et des projets humanoïdes encore émergents.</p>
+        <p>Cet ebook propose un panorama structuré de ces technologies et consacre une section entière aux robots humanoïdes de chantier, c’est-à-dire des machines qui cherchent à reprendre certaines tâches humaines dans un environnement de construction réel.</p>
+      </section>
+
+      <section id="page-2" class="page-card">
+        <div class="page-number">Page 2</div>
+        <h2>Panorama mondial</h2>
+        <p>Les robots déjà les plus présents sur les chantiers ne sont pas les humanoïdes, mais des machines hautement spécialisées capables d’automatiser un goulet d’étranglement précis : pose de briques, ligature d’armatures, relevés de chantier, façade ou perçage répétitif.</p>
+        <p>Le chantier extérieur reste l’un des environnements les plus difficiles à robotiser à cause de la poussière, des intempéries, des surfaces irrégulières, des écarts entre le plan et le réel et de la coactivité entre équipes humaines et machines.</p>
+      </section>
+
+      <section id="page-3" class="page-card">
+        <div class="page-number">Page 3</div>
+        <h2>Grandes familles de robots</h2>
+        <ul>
+          <li>Robots de maçonnerie et briquetage.</li>
+          <li>Robots d’impression 3D sur chantier.</li>
+          <li>Robots d’armatures et béton.</li>
+          <li>Robots de collecte de données et inspection.</li>
+          <li>Robots de façade et travail en hauteur.</li>
+          <li>Plateformes robotiques polyvalentes.</li>
+          <li>Humanoïdes de chantier à l’étude ou en démonstration.</li>
+        </ul>
+      </section>
+
+      <section id="page-4" class="page-card">
+        <div class="page-number">Page 4</div>
+        <h2>Robots de maçonnerie</h2>
+        <p>Des systèmes comme SAM100 ou Hadrian X illustrent l’automatisation de la pose de briques et de blocs directement sur chantier. Ces robots sont pensés pour accélérer des tâches répétitives, réduire la pénibilité et améliorer la constance d’exécution.</p>
+      </section>
+
+      <section id="page-5" class="page-card">
+        <div class="page-number">Page 5</div>
+        <h2>Impression 3D sur chantier</h2>
+        <p>L’impression 3D in situ utilise des bras robotisés, des rails ou des systèmes à câbles afin d’extruder des matériaux directement sur chantier. Elle vise à réduire les déchets, accélérer l’exécution et permettre des géométries difficiles à produire avec des méthodes traditionnelles.</p>
+      </section>
+
+      <section id="page-6" class="page-card">
+        <div class="page-number">Page 6</div>
+        <h2>Robots d’armatures et béton</h2>
+        <p>TyBOT et IronBOT représentent une catégorie déjà très concrète de robotique de chantier extérieur. Ils automatisent la ligature et la manutention des armatures sur grands ouvrages de génie civil comme les ponts et les dalles.</p>
+      </section>
+
+      <section id="page-7" class="page-card">
+        <div class="page-number">Page 7</div>
+        <h2>Robots d’inspection et de données</h2>
+        <p>Le robot quadrupède Spot est devenu emblématique de la documentation de chantier. Il permet d’effectuer des tournées régulières, des captures d’images 360, des scans 3D et des relevés utiles à la comparaison entre le chantier réel et le modèle numérique.</p>
+      </section>
+
+      <section id="page-8" class="page-card">
+        <div class="page-number">Page 8</div>
+        <h2>Robots de façade et hauteur</h2>
+        <p>Des solutions comme Raise Robotics montrent comment automatiser certaines opérations dangereuses en façade de tours : perçage, fixation, mise en position, tout en améliorant la sécurité des opérateurs.</p>
+      </section>
+
+      <section id="page-9" class="page-card">
+        <div class="page-number">Page 9</div>
+        <h2>Plateformes robotiques polyvalentes</h2>
+        <p>Les plateformes de type Baubot combinent mobilité et bras robotique industriel robuste. Elles visent à reprendre plusieurs tâches répétitives de chantier comme le perçage, la découpe ou le vissage.</p>
+      </section>
+
+      <section id="page-10" class="page-card highlight">
+        <div class="page-number">Page 10</div>
+        <h2>Section spéciale : robots humanoïdes de chantier</h2>
+        <p>Les robots humanoïdes intéressent fortement le secteur de la construction parce qu’ils pourraient travailler dans des environnements déjà conçus pour les humains : escaliers, outils manuels, passages étroits, postes de travail standardisés autour du corps humain.</p>
+        <p>Le démonstrateur HRP-5P de l’AIST constitue l’un des exemples les plus marquants. Il a montré des capacités de manipulation de plaques de plâtre, de positionnement et de vissage, ce qui rapproche la robotique humanoïde de séquences gestuelles réellement présentes sur chantier.</p>
+        <p>À moyen terme, les tâches les plus crédibles pour les humanoïdes sur chantier incluent la manutention légère, la tenue de panneaux, le nettoyage, le tri de déchets, l’assistance logistique, le transport d’outils et certaines opérations répétitives du second œuvre.</p>
+        <p>Leurs limites restent importantes : mobilité sur terrain irrégulier, robustesse face à la pluie et à la poussière, autonomie énergétique, vitesse réelle, coût et sécurité de cohabitation avec les équipes humaines.</p>
+      </section>
+
+      <section id="page-11" class="page-card">
+        <div class="page-number">Page 11</div>
+        <h2>Limites techniques et freins</h2>
+        <p>La fragmentation des chantiers, la variabilité du terrain, les coûts de déploiement, les exigences assurantielles et l’acceptation humaine freinent encore une diffusion massive des robots avancés, notamment des humanoïdes.</p>
+      </section>
+
+      <section id="page-12" class="page-card">
+        <div class="page-number">Page 12</div>
+        <h2>Tendances 2026-2035</h2>
+        <p>Le scénario le plus plausible est une montée progressive d’un chantier hybride combinant robots spécialisés, systèmes de relevé, plateformes multi-outils et, à plus long terme, assistants humanoïdes ciblés sur certaines tâches.</p>
+      </section>
+
+      <section id="page-13" class="page-card">
+        <div class="page-number">Page 13</div>
+        <h2>Images recommandées</h2>
+        <ul>
+          <li><a href="https://bostondynamics.com/blog/automated-construction-site-documentation/" target="_blank" rel="noopener noreferrer">Boston Dynamics — Automated Construction Site Documentation</a></li>
+          <li><a href="https://bostondynamics.com/industry/construction/" target="_blank" rel="noopener noreferrer">Boston Dynamics — Construction</a></li>
+          <li><a href="https://www.constructionrobots.com/tybot" target="_blank" rel="noopener noreferrer">ACR — TyBOT</a></li>
+          <li><a href="https://www.universal-robots.com/case-stories/raise-robotics/" target="_blank" rel="noopener noreferrer">Universal Robots — Raise Robotics</a></li>
+          <li><a href="https://www.kuka.com/en-us/industries/solutions-database/2024/11/baubot-kr-iontec" target="_blank" rel="noopener noreferrer">KUKA — Baubot / KR IONTEC</a></li>
+          <li><a href="https://www.youtube.com/watch?v=TJNDBdzTiWU" target="_blank" rel="noopener noreferrer">Démo vidéo HRP-5P</a></li>
+        </ul>
+      </section>
+
+      <section id="page-14" class="page-card">
+        <div class="page-number">Page 14</div>
+        <h2>Prompts détaillés pour illustrations sur mesure</h2>
+        <details>
+          <summary>Prompt 1 — Humanoïde aidant à poser une plaque</summary>
+          <p>Créer une illustration ultra réaliste d'un robot humanoïde de chantier dans un bâtiment en construction semi-ouvert sur l'extérieur. Le robot mesure environ 1,80 m, possède deux bras articulés, des mains mécaniques précises, une tête capteur avec caméras et lidar, et un torse robuste de couleur blanche et gris industriel. Il tient une grande plaque de plâtre contre une ossature métallique pendant qu'un ouvrier humain à côté prépare une visseuse. Montrer clairement que le robot assiste l'humain plutôt qu'il ne travaille seul.</p>
+        </details>
+        <details>
+          <summary>Prompt 2 — Robot quadrupède de relevé</summary>
+          <p>Créer une scène réaliste d'un robot quadrupède jaune de type inspection se déplaçant sur un chantier de construction extérieur au lever du jour. Le robot avance sur un sol irrégulier avec des gravats légers, porte un capteur 360 degrés et un module de scan 3D. À l'arrière-plan, on voit une structure béton en cours de construction, des ouvriers équipés de casques, une grue et des marquages de chantier.</p>
+        </details>
+        <details>
+          <summary>Prompt 3 — TyBOT sur tablier de pont</summary>
+          <p>Illustration réaliste d'un grand robot autonome de ligature d'armatures travaillant sur un tablier de pont en construction. Le robot se déplace sur une vaste grille de barres d'armature métalliques et effectue automatiquement les ligatures à intervalles réguliers. Montrer l'échelle du chantier avec une vallée ou une rivière en arrière-plan.</p>
+        </details>
+      </section>
+
+      <section id="page-15" class="page-card">
+        <div class="page-number">Page 15</div>
+        <h2>Bibliographie cliquable</h2>
+        <ul class="bibliography">
+          <li><a href="https://bostondynamics.com/blog/unlocking-jobsite-data-with-spot/" target="_blank" rel="noopener noreferrer">Boston Dynamics — Unlocking Jobsite Data with Spot</a></li>
+          <li><a href="https://bostondynamics.com/blog/automated-construction-site-documentation/" target="_blank" rel="noopener noreferrer">Boston Dynamics — Automated Construction Site Documentation</a></li>
+          <li><a href="https://bostondynamics.com/industry/construction/" target="_blank" rel="noopener noreferrer">Boston Dynamics — Construction</a></li>
+          <li><a href="https://www.constructionrobots.com/tybot" target="_blank" rel="noopener noreferrer">Advanced Construction Robotics — TyBOT</a></li>
+          <li><a href="https://www.equipmentworld.com/roadbuilding-equipment/article/15684551/new-generation-of-rebartying-robot-tybot-30-hits-the-market" target="_blank" rel="noopener noreferrer">Equipment World — TyBOT 3.0</a></li>
+          <li><a href="https://www.universal-robots.com/case-stories/raise-robotics/" target="_blank" rel="noopener noreferrer">Universal Robots — Raise Robotics</a></li>
+          <li><a href="https://raiserobotics.ai" target="_blank" rel="noopener noreferrer">Raise Robotics — site officiel</a></li>
+          <li><a href="https://www.kuka.com/en-us/industries/solutions-database/2024/11/baubot-kr-iontec" target="_blank" rel="noopener noreferrer">KUKA — Robots for construction sites</a></li>
+          <li><a href="https://www.kuka.com/en-de/products/robot-systems/industrial-robots/kr-iontec" target="_blank" rel="noopener noreferrer">KUKA — KR IONTEC</a></li>
+          <li><a href="https://www.fbr.com.au/view/news-articles/20221220072850" target="_blank" rel="noopener noreferrer">FBR — Mechanical Completion of Next Generation Hadrian X</a></li>
+          <li><a href="https://archello.com/product/hadrian-x" target="_blank" rel="noopener noreferrer">Archello — Hadrian X</a></li>
+          <li><a href="https://www.autodesk.com/products/fusion-360/blog/future-construction-sites-3d-printing-robots/" target="_blank" rel="noopener noreferrer">Autodesk — Future construction sites with 3D printing robots</a></li>
+          <li><a href="https://news.cornell.edu/stories/2022/05/3d-printing-robot-enables-sustainable-construction" target="_blank" rel="noopener noreferrer">Cornell Chronicle — 3D-printing robot enables sustainable construction</a></li>
+          <li><a href="https://sciencepost.fr/robots-constructeurs-revolutionnent-lindustrie-batiment/" target="_blank" rel="noopener noreferrer">SciencePost — Les robots constructeurs révolutionnent l'industrie du bâtiment</a></li>
+          <li><a href="https://www.portailconstructo.com/infoconstructo/arrivee_robots_dans_construction" target="_blank" rel="noopener noreferrer">Portail Constructo — Arrivée des robots dans la construction</a></li>
+          <li><a href="https://leonard.vinci.com/construction-robots-main-pate/" target="_blank" rel="noopener noreferrer">Leonard / VINCI — Construction : quand les robots mettent la main à la pâte</a></li>
+          <li><a href="https://pomerleau.ca/fr/actualites/article/innovation/pilote-par-lia-ou-assiste-par-lia-deploiement-de-lia-dans-la" target="_blank" rel="noopener noreferrer">Pomerleau — Déploiement de l'IA dans la construction</a></li>
+          <li><a href="https://www.design-mat.com/ressources/les-robots-arrivent-sur-les-chantiers-du-batiment/" target="_blank" rel="noopener noreferrer">Design-Mat — Les robots arrivent sur les chantiers du bâtiment</a></li>
+          <li><a href="https://www.mckinsey.com/industries/engineering-construction-and-building-materials/our-insights/humanoid-robots-in-the-construction-industry-a-future-vision" target="_blank" rel="noopener noreferrer">McKinsey — Humanoid robots in the construction industry</a></li>
+          <li><a href="https://www.constructionbriefing.com/fr/news/des-robots-humanoides-vont-ils-vraiment-arriver-sur-un-chantier-pres-de-chez-vous/" target="_blank" rel="noopener noreferrer">Construction Briefing — Robots humanoïdes sur chantier</a></li>
+          <li><a href="https://siecledigital.fr/2018/10/02/cet-humanoide-pourra-etre-utilise-sur-des-chantiers-de-construction/" target="_blank" rel="noopener noreferrer">Siècle Digital — Humanoïde sur chantier</a></li>
+          <li><a href="https://lejournal.cnrs.fr/articles/les-robots-humanoides-se-mettent-au-travail" target="_blank" rel="noopener noreferrer">CNRS Le Journal — Les robots humanoïdes se mettent au travail</a></li>
+          <li><a href="https://www.engineering.com/research-team-develops-humanoid-construction-robot/" target="_blank" rel="noopener noreferrer">Engineering.com — Research Team Develops Humanoid Construction Robot</a></li>
+          <li><a href="https://robotsguide.com/robots/hrp5p" target="_blank" rel="noopener noreferrer">RobotsGuide — HRP-5P</a></li>
+          <li><a href="https://www.youtube.com/watch?v=TJNDBdzTiWU" target="_blank" rel="noopener noreferrer">YouTube — Japanese Drywall Robot HRP-5P</a></li>
+          <li><a href="https://portalimages.blob.core.windows.net/products/pdfs/unqx2by5_KUKA_Flyer_KR_IONTEC_EN.pdf" target="_blank" rel="noopener noreferrer">PDF — KUKA KR IONTEC brochure</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer container">
+    <p>Version HTML prête pour GitHub Pages. Tous les liens externes s’ouvrent dans un nouvel onglet.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
